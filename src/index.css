@@ -1,0 +1,104 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --surface: #fcf8ff;
+    --surface-dim: #dad6ff;
+    --surface-bright: #fcf8ff;
+    --surface-container-lowest: #ffffff;
+    --surface-container-low: #f6f2ff;
+    --surface-container: #efebff;
+    --surface-container-high: #e9e5ff;
+    --surface-container-highest: #e3dfff;
+    --on-surface: #181445;
+    --on-surface-variant: #484555;
+    --primary: #4514c9;
+    --primary-container: #5d3be0;
+    --on-primary: #ffffff;
+    --on-primary-container: #d9d0ff;
+    --secondary: #782dd5;
+    --secondary-container: #924df0;
+    --outline: #797587;
+    --outline-variant: #c9c4d8;
+  }
+
+  body {
+    font-family: 'Roboto Flex', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-color: #fcf8ff;
+    color: #181445;
+    overflow-x: hidden;
+  }
+}
+
+/* Tactile Ephemera & Stamp Typography */
+.label-stamp {
+  font-family: 'Roboto Flex', sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 14px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.font-handwriting {
+  font-family: 'Caveat', cursive;
+}
+
+/* Tactile Postal Stamp Perforated Scallop Edge */
+.stamp-perforations {
+  background-image: radial-gradient(circle, transparent 2.5px, currentColor 3px);
+  background-size: 10px 10px;
+}
+
+/* Airmail Vintage Ribbon Border */
+.airmail-ribbon {
+  background: repeating-linear-gradient(
+    -45deg,
+    #5d3be0 0px,
+    #5d3be0 12px,
+    transparent 12px,
+    transparent 18px,
+    #ba1a1a 18px,
+    #ba1a1a 30px,
+    transparent 30px,
+    transparent 36px
+  );
+}
+
+.airmail-strip {
+  background: repeating-linear-gradient(
+    -45deg,
+    #5d3be0 0px,
+    #5d3be0 10px,
+    #fcf8ff 10px,
+    #fcf8ff 16px,
+    #924df0 16px,
+    #924df0 26px,
+    #fcf8ff 26px,
+    #fcf8ff 32px
+  );
+}
+
+/* Postcard 3D Cardstock Flip Perspective */
+.perspective-1000 {
+  perspective: 1200px;
+}
+
+.transform-style-preserve-3d {
+  transform-style: preserve-3d;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+.rotate-y-180 {
+  transform: rotateY(180deg);
+}
+
+/* Print Cardstock Grain Overlay */
+.paper-grain {
+  background-image: radial-gradient(rgba(24, 20, 69, 0.035) 1px, transparent 0);
+  background-size: 12px 12px;
+}

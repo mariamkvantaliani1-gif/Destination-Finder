@@ -1,0 +1,6 @@
+{
+  "name": "Postmark | Tactile Postal Modern Dispatch",
+  "description": "Digital-to-physical memory discovery and tactile postcard dispatch service with cardstock proofs, philatelic stamps, and postal ephemera.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
